@@ -14,9 +14,41 @@
 /* #region ||||| DEBUG RULES ||||| */
 
 .debug {
+
   #site_header {
     background-color: var(--bs-secondary);
     color: var(--bs-font_light);
+  }
+
+  #site_main {
+
+    ._banner {
+      background-color: var(--bs-primary);
+      color: var(--bs-font_light);
+
+      .container {
+
+        ._profile_img {
+
+          img {
+            height: 200px;
+            aspect-ratio: 1;
+          }
+        }
+
+        ._divider {
+
+          hr {
+            width: 50px;
+            border: 1px solid red;
+          }
+
+          i {
+            padding: 0 0.3rem;
+          }
+        }
+      }
+    }
   }
 }
 
