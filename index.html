@@ -23,7 +23,6 @@
 <body class="debug">
 
   <!-- Header -->
-
   <header id="site_header">
     <div class="container d-flex justify-content-between align-items-center">
       <div>START BOOTSTRAP</div> <!-- Logo -->
@@ -56,13 +55,12 @@
   </header>
 
   <!-- Main -->
-
   <main id="site_main">
 
 
     <!-- Banner -->
     <div class="_banner">
-      <section class="container d-flex flex-column align-items-center">
+      <section class="container py-5 d-flex flex-column align-items-center">
         <div class="_profile_img">
           <img src="./assets/img/avatar.svg" alt="">
         </div>
@@ -80,7 +78,7 @@
 
     <!-- Portfolio -->
     <div class="_portfolio">
-      <section class="container d-flex flex-column align-items-center">
+      <section class="container py-5 d-flex flex-column align-items-center">
         <h2 class="_section_title">PORTFOLIO</h2>
         <div class="_divider d-flex align-items-center">
           <hr>
@@ -100,7 +98,7 @@
 
     <!-- About -->
     <div class="_about">
-      <section class="container px-5 d-flex flex-column align-items-center">
+      <section class="container p-5 d-flex flex-column align-items-center">
         <h2 class="section_title">ABOUT</h2>
         <div class="_divider d-flex align-items-center">
           <hr>
@@ -124,11 +122,11 @@
       </section>
     </div>
 
-
     <!-- Contact me-->
 
     <div class="_contact_me">
-      <section class="container px-5 d-flex flex-column align-items-center">
+      <section class="container p-5 d-flex flex-column align-items-center">
+        <h2>CONTACT ME</h2>
         <div class="_divider d-flex align-items-center">
           <hr>
           <i class="fa-solid fa-star"></i>
@@ -145,7 +143,7 @@
           <input type="number" id="phone" name="phone">
 
           <label for="message">Message</label>
-          <textarea id="message" name="message" cols="140" rows="10"></textarea>
+          <textarea id="message" name="message" cols="100" rows="10"></textarea>
 
 
           <input type="submit" id="send" name="send" value="Send">
@@ -156,8 +154,38 @@
   </main>
 
   <!-- Footer -->
+  <footer id="site_footer">
+    <div class="_footer_top">
 
-  <footer id="site_footer"></footer>
+      <div class="container py-5">
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col text-center">
+            <section class="_location">
+              <h4>LOCATION</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sit?</p>
+            </section>
+          </div>
+          <div class="col text-center">
+            <section class="_socials">
+              <h4>AROUND THE WEB</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sit?</p>
+            </section>
+          </div>
+          <div class="col text-center">
+            <section class="_about">
+              <h4>ABOUT FREELANCER</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sit?</p>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <div class="_footer_bottom">
+        <div class="container text-center py-5">
+          <p>Copyright &COPY; Marino di Lauro 2024</p>
+        </div>
+      </div>
+  </footer>
 
 </body>
 

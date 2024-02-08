@@ -82,6 +82,18 @@
       }
     }
   }
+
+  #site_footer {
+    color: var(--bs-font_light);
+
+    ._footer_top {
+      background-color: var(--bs-secondary_light);
+    }
+
+    ._footer_bottom {
+      background-color: var(--bs-secondary);
+    }
+  }
 }
 
 /* #endregion ||||| DEBUG RULES ||||| */
@@ -106,7 +118,29 @@ img {
 /* #endregion ||||| COMMON RULES ||||| */
 
 
+/* #region ||||| HEADER QUERIES ||||| */
+
+
+
+/* #endregion ||||| HEADER QUERIES ||||| */
+
+
+/* #region ||||| MAIN QUERIES ||||| */
+
+
+
+/* #endregion ||||| MAIN QUERIES ||||| */
+
+
+/* #region ||||| FOOTER QUERIES ||||| */
+
+
+
+/* #endregion ||||| FOOTER QUERIES ||||| */
+
+
 /* #region ||||| MEDIA QUERIES ||||| */
+
 
 
 /* #endregion ||||| MEDIA QUERIES ||||| */
