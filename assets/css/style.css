@@ -39,20 +39,50 @@
         ._divider {
 
           hr {
-            width: 50px;
-            border: 1px solid red;
-          }
-
-          i {
-            padding: 0 0.3rem;
+            border: 1px solid var(--bs-font_light);
           }
         }
+      }
+
+      ._portfolio {
+        background-color: var(--bs-backgound_light);
+        color: var(--bs-secondary);
+        height: 1000px;
+
+        ._divider {
+
+          hr {
+            border: 1px solid var(--bs-secondary);
+          }
+        }
+
+
+
       }
     }
   }
 }
 
 /* #endregion ||||| DEBUG RULES ||||| */
+
+/* #region ||||| COMMON RULES ||||| */
+
+img {
+  max-width: 100%;
+}
+
+._divider {
+
+  hr {
+    width: 50px;
+  }
+
+  i {
+    padding: 0 0.3rem;
+  }
+}
+
+/* #endregion ||||| COMMON RULES ||||| */
 
 
 /* #region ||||| MEDIA QUERIES ||||| */
