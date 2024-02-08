@@ -1,0 +1,29 @@
+/* #region ||||| UTILITIES RULES ||||| */
+
+:root {
+  --bs-primary: rgba(26, 188, 156, 1);
+  --bs-secondary: rgba(44, 62, 80, 1);
+  --bs-secondary_light: rgba(58, 84, 109, 1);
+  --bs-backgound_light: rgba(234, 234, 234, 1);
+  --bs-font_light: rgba(255, 255, 255, 1);
+}
+
+/* #endregion ||||| UTILITIES RULES ||||| */
+
+
+/* #region ||||| DEBUG RULES ||||| */
+
+.debug {
+  #site_header {
+    background-color: var(--bs-secondary);
+    color: var(--bs-font_light);
+  }
+}
+
+/* #endregion ||||| DEBUG RULES ||||| */
+
+
+/* #region ||||| MEDIA QUERIES ||||| */
+
+
+/* #endregion ||||| MEDIA QUERIES ||||| */
