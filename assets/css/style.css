@@ -39,8 +39,6 @@
 
 .debug {
 
-
-
   #site_main {
 
     ._about {
@@ -90,18 +88,24 @@ img {
   max-width: 100%;
 }
 
-._divider {
+._hr_bold_light {
+  width: 50px;
+  height: 3px;
+  border-radius: 2px;
+  opacity: 1;
+  background-color: var(--bs-font_light);
+  color: var(--bs-font_light);
+  border: 1px solid var(--bs-font_light);
+}
 
-  hr {
-    width: 50px;
-    height: 3px;
-    border-radius: 2px;
-    opacity: 1;
-  }
-
-  i {
-    padding: 0 0.3rem;
-  }
+._hr_bold_dark {
+  width: 50px;
+  height: 3px;
+  border-radius: 2px;
+  opacity: 1;
+  background-color: var(--bs-secondary);
+  color: var(--bs-secondary);
+  border: 1px solid var(--bs-secondary);
 }
 
 /* #endregion ||||| COMMON RULES ||||| */
@@ -128,14 +132,7 @@ img {
       }
     }
 
-    ._divider {
-
-      hr {
-        background-color: var(--bs-font_light);
-        color: var(--bs-font_light);
-        border: 1px solid var(--bs-font_light)
-      }
-    }
+    ._divider {}
   }
 
   ._portfolio {
@@ -145,6 +142,7 @@ img {
       hr {
         background-color: var(--bs-secondary);
         color: var(--bs-secondary);
+        border: 1px solid var(--bs-secondary)
       }
     }
   }
