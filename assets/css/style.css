@@ -41,18 +41,6 @@
 
   #site_main {
 
-    ._about {
-      background-color: var(--bs-primary);
-      color: var(--bs-font_light);
-
-      ._btn {
-        background-color: var(--bs-primary);
-        color: var(--bs-font_light);
-        border: 1px solid var(--bs-font_light);
-      }
-
-    }
-
     ._contact_me {
 
       ._contact_form {
