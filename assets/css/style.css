@@ -32,29 +32,12 @@
   color: var(--bs-font_light);
 }
 
-/* #endregion ||||| UTILITIES RULES ||||| */
-
-
-/* #region ||||| DEBUG RULES ||||| */
-
-.debug {
-
-  #site_main {}
-
-  #site_footer {
-    color: var(--bs-font_light);
-
-    ._footer_top {
-      background-color: var(--bs-secondary_light);
-    }
-
-    ._footer_bottom {
-      background-color: var(--bs-secondary);
-    }
-  }
+._link_color {
+  color: var(--bs-primary);
 }
 
-/* #endregion ||||| DEBUG RULES ||||| */
+/* #endregion ||||| UTILITIES RULES ||||| */
+
 
 /* #region ||||| COMMON RULES ||||| */
 
@@ -85,14 +68,7 @@ img {
 /* #endregion ||||| COMMON RULES ||||| */
 
 
-/* #region ||||| HEADER QUERIES ||||| */
-
-
-
-/* #endregion ||||| HEADER QUERIES ||||| */
-
-
-/* #region ||||| MAIN QUERIES ||||| */
+/* #region ||||| MAIN ||||| */
 
 #site_main {
 
@@ -120,18 +96,33 @@ img {
   }
 }
 
-/* #endregion ||||| MAIN QUERIES ||||| */
+/* #endregion ||||| MAIN ||||| */
 
 
-/* #region ||||| FOOTER QUERIES ||||| */
+/* #region ||||| FOOTER ||||| */
 
+#site_footer {
 
+  ._footer_top {
+    span {
+      font-size: 0.9rem;
+    }
+  }
 
-/* #endregion ||||| FOOTER QUERIES ||||| */
+  ._footer_bottom {
 
+    span {
+      font-size: 0.7rem;
+    }
 
-/* #region ||||| MEDIA QUERIES ||||| */
+    ._socials {
 
+      i {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+}
 
-
-/* #endregion ||||| MEDIA QUERIES ||||| */
+/* #endregion ||||| FOOTER ||||| */
