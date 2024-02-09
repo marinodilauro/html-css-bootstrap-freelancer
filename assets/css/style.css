@@ -6,6 +6,7 @@
   --bs-secondary_light: rgba(58, 84, 109, 1);
   --bs-backgound_light: rgba(234, 234, 234, 1);
   --bs-font_light: rgba(255, 255, 255, 1);
+  --bs-card_hover_bg: rgba(0, 160, 90, 0.5);
 }
 
 ._bg_primary {
@@ -44,6 +45,10 @@
   width: 50px;
   height: 50px;
   padding: 0.8rem;
+}
+
+._hide {
+  display: none;
 }
 
 /* #endregion ||||| UTILITIES RULES ||||| */
@@ -92,6 +97,21 @@ img {
       }
     }
 
+  }
+
+  ._portfolio {
+
+    ._more_details {
+      font-size: 5rem;
+    }
+
+    .card:hover ._icon_bg {
+      background-color: var(--bs-card_hover_bg);
+    }
+
+    .card:hover ._more_details {
+      display: inline;
+    }
   }
 
   ._contact_me {
