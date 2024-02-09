@@ -39,21 +39,7 @@
 
 .debug {
 
-  #site_main {
-
-    ._contact_me {
-
-      ._contact_form {
-        width: 100%;
-        gap: 1rem;
-
-        input,
-        textarea {
-          width: 100%;
-        }
-      }
-    }
-  }
+  #site_main {}
 
   #site_footer {
     color: var(--bs-font_light);
@@ -120,17 +106,15 @@ img {
       }
     }
 
-    ._divider {}
   }
 
-  ._portfolio {
+  ._contact_me {
 
-    ._divider {
+    ._contact_form {
+      width: 100%;
 
-      hr {
-        background-color: var(--bs-secondary);
-        color: var(--bs-secondary);
-        border: 1px solid var(--bs-secondary)
+      textarea {
+        height: 150px;
       }
     }
   }

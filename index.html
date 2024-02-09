@@ -56,7 +56,6 @@
   <!-- Main -->
   <main id="site_main">
 
-
     <!-- Banner -->
     <section class="_banner _bg_primary py-4">
       <div class="container d-flex flex-column align-items-center">
@@ -76,8 +75,8 @@
     </section>
 
     <!-- Portfolio -->
-    <section class="_portfolio _bg_light">
-      <div class="container py-5 d-flex flex-column align-items-center">
+    <section class="_portfolio _bg_light py-5">
+      <div class="container  d-flex flex-column align-items-center">
         <h2 class="_section_title">PORTFOLIO</h2>
         <div class="_divider py-2 d-flex align-items-center">
           <hr class="_hr_bold_dark">
@@ -99,13 +98,17 @@
     <section class="_about _bg_primary px-4 py-5">
       <div class="container">
         <div class="w-75 mx-auto d-flex flex-column align-items-center">
+
           <h2 class="section_title">ABOUT</h2>
+
           <div class="_divider py-2 d-flex align-items-center">
             <hr class="_hr_bold_light">
             <i class="px-2 fa-solid fa-xl fa-star"></i>
             <hr class="_hr_bold_light">
           </div>
+
           <div class="row gy-2 row-cols-1 row-cols-md-2">
+
             <div class="col">
               <p>
                 Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete
@@ -113,46 +116,68 @@
                 files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
               </p>
             </div>
+
             <div class="col">
               <p class="pb-4">
                 Whether you're a student looking to showcase your work, a professional looking to attract clients, or a
                 graphic artist looking to share your projects, this template is the perfect starting point!
               </p>
             </div>
+
           </div>
+
           <button class="btn btn-outline-light" type="button">
             <i class="fa-solid fa-download"></i>
             <span>Download</span>
           </button>
+
         </div>
       </div>
     </section>
 
     <!-- Contact me-->
+    <section class="_contact_me p-4">
+      <div class="container">
+        <div class="w-75 mx-auto d-flex flex-column align-items-center">
 
-    <section class="_contact_me">
-      <div class="container p-5 d-flex flex-column align-items-center">
-        <h2>CONTACT ME</h2>
-        <div class="_divider py-2 d-flex align-items-center">
-          <hr>
-          <i class="fa-solid fa-xl fa-star"></i>
-          <hr>
+          <h2>CONTACT ME</h2>
+
+          <div class="_divider py-2 d-flex align-items-center">
+            <hr class="_hr_bold_dark">
+            <i class="px-2 fa-solid fa-xl fa-star"></i>
+            <hr class="_hr_bold_dark">
+          </div>
+
+          <form action="#" class="_contact_form d-flex flex-column">
+
+            <div class="form-floating">
+              <input type="text" class="form-control border-0 border-bottom rounded-0" id="floatingName"
+                placeholder="Name">
+              <label class="px-0" for="floatingName ">Name</label>
+            </div>
+
+            <div class="form-floating">
+              <input type="email" class="form-control border-0 border-bottom rounded-0" id="floatingEmail"
+                placeholder="Email Address">
+              <label class="px-0" for="floatingEmail">Email Address</label>
+            </div>
+
+            <div class="form-floating">
+              <input type="email" class="form-control border-0 border-bottom rounded-0" id="floatingEmail"
+                placeholder="Phone Number">
+              <label class="px-0" for="floatingEmail">Phone Number</label>
+            </div>
+
+            <div class="form-floating mb-3">
+              <textarea class="form-control border-0 border-bottom rounded-0" placeholder="Message"
+                id="floatingMessage"></textarea>
+              <label class="px-0" for="floatingMessage">Message</label>
+            </div>
+
+            <button type="submit" id="send" name="send" class="btn _bg_primary align-self-start">Send</button>
+
+          </form>
         </div>
-        <form action="#" class="_contact_form d-flex flex-column align-items-start">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name">
-
-          <label for="email">Email Address</label>
-          <input type="email" id="email" name="email">
-
-          <label for="phone">Phone Number</label>
-          <input type="number" id="phone" name="phone">
-
-          <label for="message">Message</label>
-          <textarea id="message" name="message" cols="100" rows="10"></textarea>
-
-          <input type="submit" id="send" name="send" value="Send">
-        </form>
       </div>
     </section>
 
