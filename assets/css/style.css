@@ -36,6 +36,16 @@
   color: var(--bs-primary);
 }
 
+._navbar_toggler_light {
+  filter: invert(1);
+}
+
+._icon_border {
+  width: 50px;
+  height: 50px;
+  padding: 0.8rem;
+}
+
 /* #endregion ||||| UTILITIES RULES ||||| */
 
 
@@ -46,7 +56,7 @@ img {
 }
 
 ._hr_bold_light {
-  width: 50px;
+  width: 10%;
   height: 3px;
   border-radius: 2px;
   opacity: 1;
@@ -56,7 +66,7 @@ img {
 }
 
 ._hr_bold_dark {
-  width: 50px;
+  width: 10%;
   height: 3px;
   border-radius: 2px;
   opacity: 1;

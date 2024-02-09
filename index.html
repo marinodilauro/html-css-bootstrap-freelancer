@@ -25,15 +25,19 @@
   <!-- Header -->
   <header id="site_header">
 
-    <nav class="navbar py-3 px-md-5 navbar-expand-md _bg_secondary">
+    <nav class="navbar py-3 px-md-5 navbar-expand-md _bg_secondary ">
       <div class="container d-flex align-items-baseline">
+
         <a class="navbar-brand _font_color_light" href="#">
           <h6><strong>START BOOTSTRAP</strong></h6>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+
+        <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon _navbar_toggler_light"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -48,6 +52,7 @@
             </li>
           </ul>
         </div>
+
       </div>
     </nav>
 
@@ -59,30 +64,38 @@
     <!-- Banner -->
     <section class="_banner _bg_primary py-4">
       <div class="container d-flex flex-column align-items-center">
+
         <div class="_profile_img pb-2">
           <img src="./assets/img/avatar.svg" alt="">
         </div>
+
         <h1 class="_name">START BOOTSTRAP</h1>
-        <div class="_divider py-2 d-flex align-items-center">
+
+        <div class="_divider w-100 py-2 d-flex justify-content-center align-items-center">
           <hr class="_hr_bold_light">
-          <i class=" px-2 fa-solid fa-xl fa-star"></i>
+          <i class="px-2 px-md-4 fa-solid fa-xl fa-star"></i>
           <hr class="_hr_bold_light">
         </div>
+
         <div class="_skills">
           GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
         </div>
+
       </div>
     </section>
 
     <!-- Portfolio -->
     <section class="_portfolio _bg_light py-5 px-md-5">
       <div class="container  d-flex flex-column align-items-center">
+
         <h2 class="_section_title">PORTFOLIO</h2>
-        <div class="_divider py-2 d-flex align-items-center">
+
+        <div class="_divider w-100 py-2 d-flex justify-content-center align-items-center">
           <hr class="_hr_bold_dark">
-          <i class="px-2 fa-solid fa-xl fa-star"></i>
+          <i class="px-2 px-md-4 fa-solid fa-xl fa-star"></i>
           <hr class="_hr_bold_dark">
         </div>
+
         <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
           <div class="col"> <img class="rounded" src="./assets/img/cabin.png" alt=""> </div>
           <div class="col"> <img class="rounded" src="./assets/img/cake.png" alt=""> </div>
@@ -91,6 +104,7 @@
           <div class="col"> <img class="rounded" src="./assets/img/safe.png" alt=""> </div>
           <div class="col"> <img class="rounded" src="./assets/img/submarine.png" alt=""> </div>
         </div>
+
       </div>
     </section>
 
@@ -101,9 +115,9 @@
 
           <h2 class="section_title">ABOUT</h2>
 
-          <div class="_divider py-2 d-flex align-items-center">
+          <div class="_divider w-100 py-2 d-flex justify-content-center align-items-center">
             <hr class="_hr_bold_light">
-            <i class="px-2 fa-solid fa-xl fa-star"></i>
+            <i class="px-2 px-md-4 fa-solid fa-xl fa-star"></i>
             <hr class="_hr_bold_light">
           </div>
 
@@ -142,9 +156,9 @@
 
           <h2>CONTACT ME</h2>
 
-          <div class="_divider py-2 d-flex align-items-center">
+          <div class="_divider w-100 py-2 d-flex justify-content-center align-items-center">
             <hr class="_hr_bold_dark">
-            <i class="px-2 fa-solid fa-xl fa-star"></i>
+            <i class="px-2 px-md-4 fa-solid fa-xl fa-star"></i>
             <hr class="_hr_bold_dark">
           </div>
 
@@ -199,12 +213,22 @@
           </div>
 
           <div class="col">
-            <section class="_socials pb-5">
+            <section class="_socials d-flex flex-column align-items-center pb-5">
               <h6>AROUND THE WEB</h6>
-              <a href="#"><i class="_font_color_light border rounded-circle fa-brands fa-facebook-f"></i></a>
-              <a href="#"><i class="_font_color_light border rounded-circle fa-brands fa-google-plus-g"></i></a>
-              <a href="#"><i class="_font_color_light border rounded-circle fa-brands fa-x-twitter"></i></a>
-              <a href="#"><i class="_font_color_light border rounded-circle fa-brands fa-linkedin-in"></i></a>
+              <div class="_social_icons d-flex gap-3">
+                <div class="_icon_border border rounded-circle">
+                  <a href="#"><i class="_font_color_light fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="_icon_border border rounded-circle">
+                  <a href="#"><i class="_font_color_light fa-brands fa-google-plus-g"></i></a>
+                </div>
+                <div class="_icon_border border rounded-circle">
+                  <a href="#"><i class="_font_color_light fa-brands fa-x-twitter"></i></a>
+                </div>
+                <div class="_icon_border border rounded-circle">
+                  <a href="#"><i class="_font_color_light fa-brands fa-linkedin-in"></i></a>
+                </div>
+              </div>
             </section>
           </div>
 
